@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-text">
         <h1>We Ensure better eduction for a better world</h1>
         <p>Our cutting-edge curriculum is designed to empower students with the knowledege, skills, and experiences needed to excel in the dynamic field of education</p>
-        <button className='btn'>Explore More <img src={DarkArrow} alt="" /></button>
+        <button className='btn'>Explore More <img  src={DarkArrow} alt=""  /></button>
       </div>
     </div>
   )
