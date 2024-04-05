@@ -3,7 +3,7 @@ import './Navbar.css'
 import LOGO from '../../assets/logo.png'
 const Navbar = () => {
   return (
-    <nav className='container'>
+    <nav className='container dark-nav'>
 
     <img src={LOGO} alt="" className='logo' />
      <ul>
