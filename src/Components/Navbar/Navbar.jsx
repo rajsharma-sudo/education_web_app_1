@@ -6,12 +6,12 @@ import LOGO from '../../assets/logo.png'
 const Navbar = () => {
   // here we write navbar scrolling feature logic
   const [sticky, setSticky] = useState(false)
- 
-  useEffect(()=>{
-     window.addEventListener('scroll',()=>{
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
       window.scrollY > 50 ? setSticky(true) : setSticky(false)
-     })
-  },[])
+    })
+  }, [])
 
   return (
 
