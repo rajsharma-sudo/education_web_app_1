@@ -13,3 +13,20 @@
     display:inline-block;
     margin-left: 20px;
 }
+
+
+/* -------------media Query----------- */
+
+@media (max-width:680px) {
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li{
+        margin:10px;
+    }
+
+    .footer ul{
+        margin-top: 10px;
+    }
+}
